@@ -1,5 +1,7 @@
 import React from 'react';
 import './EventPlanner.css'; // Import CSS file for styling
+import './Footer.jsx'; // Import footer component
+import Footer from './Footer.jsx';
 
 const EventPlanner = () => {
     return (
@@ -14,7 +16,6 @@ const EventPlanner = () => {
                 </p>
                 <button className="get-started-button">Get Started</button>
             </section>
-            <section className="events_categories">
             <section className="events_categories">
                 <ul>
                     <h2>Social Events:</h2>
@@ -74,6 +75,7 @@ const EventPlanner = () => {
                     <button className="submit-button">Send</button>
                 </form>
             </section>
+            <Footer/>
         </div>
     );
 };
